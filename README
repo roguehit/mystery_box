@@ -1,0 +1,7 @@
+Mystery Project
+To Compile run 
+make hex
+
+I used an avrispmkII, the exact flashing command is 
+
+sudo avrdude -p m328p -c avrispmkII -U flash:w:lcd.hex -P usb
